@@ -160,6 +160,10 @@ aside img {
 	padding-bottom: 1em;
 }
 
+#right{
+	order : 3;
+}
+
 /* the styles for the footer */
 footer {
 	background-color: #931420;
@@ -182,7 +186,7 @@ footer p {
 }
 
 /* screen widths 480px to 767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
 	header img { float: none; }
 	header {
         display: flex;
